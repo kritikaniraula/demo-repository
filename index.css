@@ -1,0 +1,152 @@
+body{
+    margin:0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    background-color:black;
+    height:50px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar{
+    margin-left:20px;
+    margin-right:20px;
+    padding-top:10px;
+}
+
+.home{
+    color:whitesmoke;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.input{
+    width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.3s ease 0s;
+    padding-left: 45px;
+    padding-right: 30px;
+    border-radius: 4px;
+    color: rgb(44, 44, 44);
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(247, 247, 247);
+}
+
+.right button{
+    position:absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border:none;
+    background-color: transparent;
+}
+
+.right button i{
+    color:black;
+    left:20px;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;  
+ 
+    position: absolute;
+}
+
+
+.title{
+    margin-left:50px;
+    margin-top:50px;
+
+}
+
+.heading{
+    font-size:40px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:10px;
+}
+
+.paragraph{
+
+margin-right:30px;
+}
+
+
+.photo{
+  margin-top:20px;
+}
+
+.photo img{
+    width:100%;
+}
+
+.learn-more{
+    margin-top:10px;
+    text-align:center;
+    align-items: center;
+    padding:5px;
+    width:120px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.main-box{
+    margin-bottom:20px;
+}
+
+
+.gallery .gallery-box{
+    margin-bottom:20px;
+}
+
+.gallery .card{
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.gallery .card-body{
+    background-color: pink;
+}
+
+.contact .heading{
+    margin-top:150px;
+    margin-left:50px;
+}
+
+.contact-us{
+    margin-right:200px;
+    margin-left:50px;
+    color:rgba(28, 3, 7, 0.786);
+}
+
+form{
+   margin-top:40px;
+   margin-right:100px;
+}
+
+.about .title{
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    margin-top:150px;
+    margin-left:30%;
+}
+
+.about p{
+    text-align: center;
+    align-items: center;
+    margin-left:300px;
+    margin-right:250px;
+    margin-top:40px;
+    font-size: 12px;
+}
+
+.about .photo{
+    margin-top:50px;
+}
